@@ -18,7 +18,7 @@ This docker image is built for `index.html` file being in the `/app` directory. 
 At a minimum, you will want this in your `Dockerfile`:
 
 ```Dockerfile
-FROM socialengine/nginx-spa:5.6
+FROM socialengine/nginx-spa
 
 COPY build/ /app
 COPY index.html /app/index.html
